@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "CodeClip Extension",
+  "version": "1.0",
+  "description": "Save code directly to CodeClip.",
+  "permissions": ["contextMenus", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icon.png"
+    }
+  }
+}
